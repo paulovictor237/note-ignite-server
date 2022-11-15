@@ -1,0 +1,74 @@
+# docker run -d --name postgres -e POSTGRES_PASSWORD=elefante -p 5432:5432 postgres
+
+# docker ps # ver os conainers rodando
+# docker ps -a # ver os conainers existentes
+# docker images # lista as imagens
+
+# docker start [id] # iniciar o container
+# docker log rentex -f
+
+# docker stop [id] # parar
+# docker rm [id] # excluir
+
+# docker build -t rentx .
+# docker run -p 3333:3333 rentx
+# docker exec -it eloquent_mccarthy
+# docker exec -it rentex /bin/bash # acessa o container
+# ctrl + d # cancela o docker
+
+# DOCKER COMPOSE
+# docker-compose up
+# docker-compose up -d
+# docker-compose start
+# docker-compose stop
+# docker-compose down #exclui tudo
+
+# TYPE-ORM
+# ❯ yarn add typeorm reflect-metadata
+# ❯ yarn add pg
+# ❯ yarn typeorm migration:create -n CreateCategories
+# ❯ yarn typeorm migration:create -n CreateSpecifications
+# ❯ yarn typeorm migration:create -n CreateUsers
+# ❯ yarn typeorm migration:run
+
+#  PRINCIPAIS COMANDOS
+# docker-compose stop
+# docker-compose up -d
+# docker logs rentx -f
+
+# RESTART
+# docker-compose stop && docker-compose up -d && docker logs rentx -f
+
+version: '3.9'
+
+services:
+  database: #ESSE É O NOME DO SERVICE QUE DEVE ESTAR NO ARQUIVO DE CRIAÇÃO DE CONEXÃO
+    image: postgres
+    container_name: database_ignite
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=ignite
+      - POSTGRES_DB=rentx
+    volumes:
+      - pgdata:/data/postgres
+
+  app:
+    build: .
+    container_name: rentx
+    restart: always
+    ports:
+      - 3333:3333
+      - 9229:9229 #Você pode inserir essa porta tbm pra poder usar o debug
+    volumes:
+      - .:/usr/app
+    links:
+      - database
+    depends_on:
+      - database
+
+volumes:
+  pgdata:
+    driver: local

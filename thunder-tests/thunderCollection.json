@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "1b13353f-c72c-4d82-8a5c-c1438e3c9049",
+    "colName": "Docker",
+    "created": "2022-09-18T15:08:41.872Z",
+    "sortNum": 20000,
+    "folders": [
+      {
+        "_id": "f341209d-d72c-42bc-8faf-68514c6b2545",
+        "name": "Users",
+        "containerId": "",
+        "created": "2022-10-27T00:39:26.248Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "5743048b-1a8d-4486-aaf3-705a12d30600",
+        "name": "Specifications",
+        "containerId": "",
+        "created": "2022-10-27T00:40:04.388Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "28367ec9-b571-47c6-9ab6-15399ee65a05",
+        "name": "Categories",
+        "containerId": "",
+        "created": "2022-10-27T00:40:10.494Z",
+        "sortNum": 30000
+      },
+      {
+        "_id": "936326f8-54fc-45a5-a19b-8e9f507367e4",
+        "name": "Cars",
+        "containerId": "",
+        "created": "2022-11-02T14:38:17.017Z",
+        "sortNum": 40000
+      },
+      {
+        "_id": "4b5c7f38-fcc4-4f81-9906-40c338238fd8",
+        "name": "Rentals",
+        "containerId": "",
+        "created": "2022-11-07T18:43:12.136Z",
+        "sortNum": 50000
+      },
+      {
+        "_id": "e3a3f16f-3ec3-4d77-b073-9e564c6f3fb5",
+        "name": "Authenticate",
+        "containerId": "",
+        "created": "2022-11-11T00:04:08.763Z",
+        "sortNum": 60000
+      },
+      {
+        "_id": "b38ad7bc-3cd8-47e1-a63d-d3f385555837",
+        "name": "Password",
+        "containerId": "",
+        "created": "2022-11-11T23:25:36.161Z",
+        "sortNum": 70000
+      }
+    ],
+    "settings": {
+      "headers": [],
+      "auth": {
+        "type": "bearer",
+        "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg0NjU5NzgsImV4cCI6MTY2ODQ2Njg3OCwic3ViIjoiY2Y1Yjc4NDYtMmFjOS00Y2JhLTk3MTYtNWJmZjI4ZTUxMWU0In0.pu6DA0oI8I1DSy7JEnfpYBdlPPgaDtIILQS7gZOGjrw"
+      },
+      "tests": []
+    }
+  },
+  {
+    "_id": "c90e9431-601e-45cc-806e-9d224e322e81",
+    "colName": "Aula 4",
+    "created": "2022-10-27T00:40:35.403Z",
+    "sortNum": 30000,
+    "folders": []
+  }
+]

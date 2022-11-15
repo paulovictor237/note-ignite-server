@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "a5e61a39-203a-4be1-a666-d1e1b58cc854",
+    "name": "(Local Env)",
+    "default": false,
+    "global": true,
+    "local": true,
+    "sortNum": -2,
+    "created": "2022-09-18T15:06:43.388Z",
+    "modified": "2022-09-18T15:06:43.388Z",
+    "data": []
+  },
+  {
+    "_id": "dfe4b1ba-a543-4095-a5dc-9061473dd74f",
+    "name": "docker",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-11-02T15:38:38.561Z",
+    "modified": "2022-11-14T22:39:52.714Z",
+    "data": [
+      {
+        "name": "tokenAdmin",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg0NjU1NzIsImV4cCI6MTY2ODQ2NjQ3Miwic3ViIjoiNzM3YzY2YzctN2M3Yy00YjFjLThiOWEtMDQ4ZDQ2YjEyNzJiIn0.ylF0bZh3WQykw-go_4a7OBdr-dsmtsaGSlCORgJQ-iA"
+      }
+    ]
+  }
+]

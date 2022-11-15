@@ -1,0 +1,18 @@
+import { Column, CreateDateColumn, Entity, PrimaryColumn } from 'typeorm';
+import { v4 as uuidV4 } from 'uuid';
+
+@Entity('cars_image')
+export class CarImage {
+  @PrimaryColumn()
+  id: string;
+  @Column()
+  car_id: string;
+  @Column()
+  image_name: string;
+  @CreateDateColumn()
+  create_at: string;
+
+  constructor() {
+    if (!this.id) this.id = uuidV4();
+  }
+}
