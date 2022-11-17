@@ -1,43 +1,5 @@
 [
   {
-    "_id": "c724e43b-89f8-4ff2-9cac-888333a1bf40",
-    "colId": "c90e9431-601e-45cc-806e-9d224e322e81",
-    "containerId": "",
-    "name": "{{node}}/courses",
-    "url": "{{node}}/categories",
-    "method": "POST",
-    "sortNum": 20000,
-    "created": "2022-09-18T15:08:41.876Z",
-    "modified": "2022-10-27T00:41:17.202Z",
-    "headers": [],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n  \"name\": \"peve\",\n  \"description\":  \"pevezaum\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
-    "_id": "756ce833-f1d1-4c92-a414-ab0b4d3b1c33",
-    "colId": "c90e9431-601e-45cc-806e-9d224e322e81",
-    "containerId": "",
-    "name": "{{node}}/courses",
-    "url": "{{node}}/categories",
-    "method": "GET",
-    "sortNum": 10000,
-    "created": "2022-09-18T15:15:26.083Z",
-    "modified": "2022-10-27T00:41:08.413Z",
-    "headers": [],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n  \"name\": \"peve\",\n  \"description\":  \"pevezaum\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
     "_id": "07593d57-39fc-4647-8c6c-2312aab691fe",
     "colId": "1b13353f-c72c-4d82-8a5c-c1438e3c9049",
     "containerId": "5743048b-1a8d-4486-aaf3-705a12d30600",
@@ -57,31 +19,6 @@
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjY4Mzg1OTgsImV4cCI6MTY2NjkyNDk5OCwic3ViIjoiMjQwMDA5NWMtMzAzNC00MDdhLWJjMzMtZDQzYTZlNWYxZDE1In0.mj7lSCPpCjh_KPTOFd-avnq2WyG63wLO1VLRRGluI7s"
-    },
-    "tests": []
-  },
-  {
-    "_id": "296a98e6-18d4-4207-9251-e73ae721dd84",
-    "colId": "c90e9431-601e-45cc-806e-9d224e322e81",
-    "containerId": "",
-    "name": "import",
-    "url": "{{node}}/categories/import",
-    "method": "POST",
-    "sortNum": 30000,
-    "created": "2022-09-19T23:02:38.817Z",
-    "modified": "2022-10-27T00:41:27.991Z",
-    "headers": [],
-    "params": [],
-    "body": {
-      "type": "formdata",
-      "raw": "",
-      "form": [],
-      "files": [
-        {
-          "name": "file",
-          "value": "../aulas/aula-04 - S.O.L.I.D/tmp/teste.css"
-        }
-      ]
     },
     "tests": []
   },
@@ -418,6 +355,365 @@
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg1MTcwNzYsImV4cCI6MTY2ODUxNzk3Niwic3ViIjoiNjM4MGNmYTctMmZhNS00ZmM5LTllZGQtMTdmYmQ0ZGZjOGZmIn0.6dZXafAoMtb3-uUz9vNjQhpCIqzBqlo1jJ707T_Y0CU"
+    },
+    "tests": []
+  },
+  {
+    "_id": "226d5533-967b-431a-b68e-01d2ed9c933d",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "b05631d9-2bb8-469f-8944-fd5a2ee201d3",
+    "name": "Create",
+    "url": "{{node}}/specifications",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-11-17T01:07:31.018Z",
+    "modified": "2022-11-17T01:07:31.018Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"pevsassdsdes\",\n  \"description\":  \"pevssdassdezasums\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjY4Mzg1OTgsImV4cCI6MTY2NjkyNDk5OCwic3ViIjoiMjQwMDA5NWMtMzAzNC00MDdhLWJjMzMtZDQzYTZlNWYxZDE1In0.mj7lSCPpCjh_KPTOFd-avnq2WyG63wLO1VLRRGluI7s"
+    },
+    "tests": []
+  },
+  {
+    "_id": "a25e6cd5-632a-4df9-813a-2e1e9dcc8bb3",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "063e3962-5197-4929-b696-27f281ea389f",
+    "name": "Create",
+    "url": "{{node}}/categories",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-11-17T01:07:31.019Z",
+    "modified": "2022-11-17T01:07:31.019Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"categoria_carro_de_luxo\",\n  \"description\": \"categoria de carro SUV\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "bf85809f-b3cd-40fb-bdf2-d58436b35be8",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "f7c73c85-cdcc-4533-97d4-960d4f40f068",
+    "name": "Session",
+    "url": "{{node}}/sessions",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-11-17T01:07:31.020Z",
+    "modified": "2022-11-17T01:07:31.020Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"testeasuth@peve.com.br\",\n  \"password\": \"1234\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "edf56041-dbb8-4f1d-ae52-c56c6fb2478c",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "063e3962-5197-4929-b696-27f281ea389f",
+    "name": "List",
+    "url": "{{node}}/categories",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-11-17T01:07:31.021Z",
+    "modified": "2022-11-17T01:07:31.021Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f05654e7-88ee-4d0b-a4e8-602d97848a8c",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "f7c73c85-cdcc-4533-97d4-960d4f40f068",
+    "name": "Session Admin",
+    "url": "{{node}}/sessions",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-11-17T01:07:31.022Z",
+    "modified": "2022-11-17T01:07:31.022Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"email@admin.com.br\",\n  \"password\": \"admin\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0694ccb5-8baa-42a3-b483-963b7402b31e",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "3bef28d3-05ba-45de-8aba-ebe97cc40368",
+    "name": "Create",
+    "url": "{{node}}/users",
+    "method": "POST",
+    "sortNum": 55000,
+    "created": "2022-11-17T01:07:31.023Z",
+    "modified": "2022-11-17T01:07:31.023Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"testesauth\",\n  \"email\": \"testeasuth@peve.com.br\",\n  \"password\": \"1234\",\n  \"driver_license\": \"12341234\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "c03d6af3-e4e1-4396-bcb0-6d02cbd4e9ea",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "3bef28d3-05ba-45de-8aba-ebe97cc40368",
+    "name": "Profile",
+    "url": "{{node}}/users/profile",
+    "method": "GET",
+    "sortNum": 65000,
+    "created": "2022-11-17T01:07:31.024Z",
+    "modified": "2022-11-17T01:07:31.024Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg1MTcwNzYsImV4cCI6MTY2ODUxNzk3Niwic3ViIjoiNjM4MGNmYTctMmZhNS00ZmM5LTllZGQtMTdmYmQ0ZGZjOGZmIn0.6dZXafAoMtb3-uUz9vNjQhpCIqzBqlo1jJ707T_Y0CU"
+    },
+    "tests": []
+  },
+  {
+    "_id": "d0d2f3b6-5029-495d-9972-6269d7ea3bad",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "3bef28d3-05ba-45de-8aba-ebe97cc40368",
+    "name": "Avatar",
+    "url": "{{node}}/users/avatar",
+    "method": "PATCH",
+    "sortNum": 75000,
+    "created": "2022-11-17T01:07:31.025Z",
+    "modified": "2022-11-17T01:07:31.025Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "avatar",
+          "value": "../../../../../../Pictures/1083636.jpg"
+        }
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg1MTcwNzYsImV4cCI6MTY2ODUxNzk3Niwic3ViIjoiNjM4MGNmYTctMmZhNS00ZmM5LTllZGQtMTdmYmQ0ZGZjOGZmIn0.6dZXafAoMtb3-uUz9vNjQhpCIqzBqlo1jJ707T_Y0CU"
+    },
+    "tests": []
+  },
+  {
+    "_id": "711020a1-ceb0-40b6-a5ac-a04805f5d24b",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "80ce6d07-054e-4dd2-b255-f83b8df5a1ea",
+    "name": "Create",
+    "url": "{{node}}/cars",
+    "method": "POST",
+    "sortNum": 95000,
+    "created": "2022-11-17T01:07:31.026Z",
+    "modified": "2022-11-17T01:07:31.026Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Name Car2\",\n  \"description\": \"Description Car\",\n  \"daily_rate\": 100,\n  \"license_plate\": \"ABC-1232\",\n  \"fine_amunt\": 60,\n  \"brand\": \"Brand2\",\n  \"category_id\": \"5f584755-4ebc-4abd-ae0f-14cdc805b984\"\n}\n",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{tokenAdmin}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "0eb0c0ee-7606-49a8-9449-9a55cbb5a2da",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "80ce6d07-054e-4dd2-b255-f83b8df5a1ea",
+    "name": "List",
+    "url": "{{node}}/cars/available",
+    "method": "GET",
+    "sortNum": 105000,
+    "created": "2022-11-17T01:07:31.027Z",
+    "modified": "2022-11-17T01:07:31.027Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "category_id",
+        "value": "5f584755-4ebc-4abd-ae0f-14cdc805b984",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "brand",
+        "value": "Brand2",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "name",
+        "value": "Name Car2",
+        "isDisabled": true,
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "a27ee9c7-729c-4c9d-9719-d54fdc2dcdcc",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "80ce6d07-054e-4dd2-b255-f83b8df5a1ea",
+    "name": "specifications",
+    "url": "{{node}}/cars/specifications/123",
+    "method": "GET",
+    "sortNum": 115000,
+    "created": "2022-11-17T01:07:31.028Z",
+    "modified": "2022-11-17T01:07:31.028Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "af24aaba-8832-49d2-858b-9d5347bdcd62",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "80ce6d07-054e-4dd2-b255-f83b8df5a1ea",
+    "name": "images",
+    "url": "{{node}}/cars/images/",
+    "method": "GET",
+    "sortNum": 125000,
+    "created": "2022-11-17T01:07:31.029Z",
+    "modified": "2022-11-17T01:07:31.029Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "60957292-9c6a-4147-993b-a1181ba4082f",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "98774944-969a-4a3f-b8cb-33b5f51b9ec4",
+    "name": "Create",
+    "url": "{{node}}/rentals",
+    "method": "POST",
+    "sortNum": 135000,
+    "created": "2022-11-17T01:07:31.030Z",
+    "modified": "2022-11-17T01:07:31.030Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"expect_return_date\": \"data\",\n  \"car_id\": \"asdaksdalksdjlkajsdklajskldj\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f7b06ebf-1cbe-46ad-aca4-eebe787041a1",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "98774944-969a-4a3f-b8cb-33b5f51b9ec4",
+    "name": "Devolution",
+    "url": "{{node}}/rentals/devolution/asdasdasdasdasdasdasd",
+    "method": "GET",
+    "sortNum": 145000,
+    "created": "2022-11-17T01:07:31.031Z",
+    "modified": "2022-11-17T01:07:31.031Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d2631617-a7d0-47ea-8a0e-dd9fe3c04ae3",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "98774944-969a-4a3f-b8cb-33b5f51b9ec4",
+    "name": "ListByUsers",
+    "url": "{{node}}/rentals/user/asdasdasdasdasdasdasd",
+    "method": "GET",
+    "sortNum": 155000,
+    "created": "2022-11-17T01:07:31.032Z",
+    "modified": "2022-11-17T01:07:31.032Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a2d1489c-3255-4a7a-a071-4bce0797665a",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "f7c73c85-cdcc-4533-97d4-960d4f40f068",
+    "name": "refresh token",
+    "url": "{{node}}/refresh-token",
+    "method": "POST",
+    "sortNum": 165000,
+    "created": "2022-11-17T01:07:31.033Z",
+    "modified": "2022-11-17T01:07:31.033Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjgxMjUxMzksImV4cCI6MTY2ODEyNjAzOSwic3ViIjoiNzM3YzY2YzctN2M3Yy00YjFjLThiOWEtMDQ4ZDQ2YjEyNzJiIn0.n7p7UzX5lrsoUms_W--e6Rojf5yvJVDe2TaHIJnwjCo\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0b3fd67d-bbea-468f-861f-54862d9950da",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "fa04fb9d-e1cc-46c0-929c-48cfe52472ef",
+    "name": "SendForgotEmail",
+    "url": "{{node}}/password/forgot",
+    "method": "POST",
+    "sortNum": 175000,
+    "created": "2022-11-17T01:07:31.034Z",
+    "modified": "2022-11-17T01:07:31.034Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"testeasuth@peve.com.br\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b6297e1b-6310-4f16-843f-d0569ef2cb1e",
+    "colId": "a41ac458-e36a-4663-8910-1038662b5432",
+    "containerId": "fa04fb9d-e1cc-46c0-929c-48cfe52472ef",
+    "name": "Resset",
+    "url": "{{node}}/password/reset",
+    "method": "POST",
+    "sortNum": 185000,
+    "created": "2022-11-17T01:07:31.035Z",
+    "modified": "2022-11-17T01:07:31.035Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"password\": \"pevezin\"\n}",
+      "form": []
     },
     "tests": []
   }

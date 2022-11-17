@@ -26,6 +26,8 @@ cat ~/.ssh/id_rsa.pub
 https://github.com/nodesource/distributions/blob/master/README.md
 https://docs.docker.com/compose/install/linux/
 https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
+sudo apt install nginx
+pm2 start dist/shared/infra/http/server.js  --name rentx_app
 
 # install packages
 yarn add @babel/cli @babel/core @babel/node @babel/plugin-proposal-class-properties @babel/plugin-proposal-decorators @babel/preset-env babel-plugin-module-resolver babel-plugin-transform-typescript-metadata @babel/preset-typescript -D
